@@ -62,7 +62,7 @@ function showError(error) {
 
 
 /**
- * 
+ * displayWeather is called if the API call is successful
  */
 function displayWeather(response) {
     const { location, current, forecast } = response.data
